@@ -29,7 +29,7 @@ int main(){
     h = (q + (int)floor(26*(m+1)/10) + y + (int)floor(y/4) + (6*(int)floor(y/100)) + (int)floor(y/400))%7; //formula
 
     if(h==0){
-        h=7;
+        h=6;
     }
 
     printf("Calendar for:\n\n");
